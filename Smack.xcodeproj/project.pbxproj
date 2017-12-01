@@ -20,6 +20,7 @@
 		FF3F0F0B1FCE36FE009C932D /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3F0F0A1FCE36FE009C932D /* LoginVC.swift */; };
 		FF3F0F0D1FCE38FC009C932D /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3F0F0C1FCE38FC009C932D /* CreateAccountVC.swift */; };
 		FF3F0F101FD1965E009C932D /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3F0F0F1FD1965E009C932D /* AuthService.swift */; };
+		FF3F0F121FD1A6B7009C932D /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3F0F111FD1A6B7009C932D /* RoundedButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		FF3F0F0A1FCE36FE009C932D /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		FF3F0F0C1FCE38FC009C932D /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
 		FF3F0F0F1FD1965E009C932D /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		FF3F0F111FD1A6B7009C932D /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				FF3F0F051FCE246C009C932D /* GradientView.swift */,
+				FF3F0F111FD1A6B7009C932D /* RoundedButton.swift */,
 			);
 			name = View;
 			path = "New Group1";
@@ -301,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF3F0F041FCE1EB1009C932D /* ChannelVC.swift in Sources */,
+				FF3F0F121FD1A6B7009C932D /* RoundedButton.swift in Sources */,
 				FF3F0F021FCE1E98009C932D /* ChatVC.swift in Sources */,
 				FF3F0F0D1FCE38FC009C932D /* CreateAccountVC.swift in Sources */,
 				FF3F0F101FD1965E009C932D /* AuthService.swift in Sources */,
