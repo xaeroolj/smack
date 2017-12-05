@@ -29,4 +29,38 @@ class UserDataServices {
         self.avatarName = avatarName
     }
     
+    func returnUIColor(components: String) -> UIColor {
+//        "[0.164705882352941, 0.749019607843137, 0.772549019607843, 1]"
+        let scanner = Scanner(string: components)
+        let skipped = CharacterSet(charactersIn: "[], ")
+        let comma = CharacterSet(charactersIn: ",")
+        scanner.charactersToBeSkipped = skipped
+        
+        var r, g, b, a : NSString?
+        scanner.scanUpToCharacters(from: comma, into: &r)
+        scanner.scanUpToCharacters(from: comma, into: &g)
+        scanner.scanUpToCharacters(from: comma, into: &b)
+        scanner.scanUpToCharacters(from: comma, into: &a)
+        
+        let defoultColor = UIColor.lightGray
+        guard let rUnwrapped = r else { return defoultColor }
+        guard let gUnwrapped = g else { return defoultColor }
+        guard let bUnwrapped = b else { return defoultColor }
+        guard let aUnwrapped = a else { return defoultColor }
+        
+        let rFloat = CGFloat(rUnwrapped.doubleValue)
+        let gFloat = CGFloat(gUnwrapped.doubleValue)
+        let bFloat = CGFloat(bUnwrapped.doubleValue)
+        let aFloat = CGFloat(aUnwrapped.doubleValue)
+        
+        let newUIColor = UIColor(red: rFloat, green: gFloat, blue: bFloat, alpha: aFloat)
+        return newUIColor
+    }
+    
+    
+    
+    
+    
+    
+    
 }
