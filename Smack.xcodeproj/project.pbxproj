@@ -24,6 +24,7 @@
 		FFE5EC011FD67D0D00C86643 /* UserDataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE5EC001FD67D0D00C86643 /* UserDataServices.swift */; };
 		FFE5EC031FD691BB00C86643 /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE5EC021FD691BB00C86643 /* AvatarPickerVC.swift */; };
 		FFE5EC051FD6977700C86643 /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE5EC041FD6977700C86643 /* AvatarCell.swift */; };
+		FFE5EC0C1FD6ED5900C86643 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE5EC0B1FD6ED5900C86643 /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		FFE5EC001FD67D0D00C86643 /* UserDataServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataServices.swift; sourceTree = "<group>"; };
 		FFE5EC021FD691BB00C86643 /* AvatarPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
 		FFE5EC041FD6977700C86643 /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
+		FFE5EC0B1FD6ED5900C86643 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 				FF3F0F051FCE246C009C932D /* GradientView.swift */,
 				FF3F0F111FD1A6B7009C932D /* RoundedButton.swift */,
 				FFE5EC041FD6977700C86643 /* AvatarCell.swift */,
+				FFE5EC0B1FD6ED5900C86643 /* CircleImage.swift */,
 			);
 			name = View;
 			path = "New Group1";
@@ -315,6 +318,7 @@
 				FF3F0F041FCE1EB1009C932D /* ChannelVC.swift in Sources */,
 				FFE5EC031FD691BB00C86643 /* AvatarPickerVC.swift in Sources */,
 				FF3F0F121FD1A6B7009C932D /* RoundedButton.swift in Sources */,
+				FFE5EC0C1FD6ED5900C86643 /* CircleImage.swift in Sources */,
 				FF3F0F021FCE1E98009C932D /* ChatVC.swift in Sources */,
 				FF3F0F0D1FCE38FC009C932D /* CreateAccountVC.swift in Sources */,
 				FF3F0F101FD1965E009C932D /* AuthService.swift in Sources */,

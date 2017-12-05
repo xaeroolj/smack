@@ -18,6 +18,7 @@ class AvatarPickerVC: UIViewController, UICollectionViewDelegate, UICollectionVi
     var avatarType = AvatarType.dark
     
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         collectionView.dataSource = self
@@ -38,7 +39,7 @@ class AvatarPickerVC: UIViewController, UICollectionViewDelegate, UICollectionVi
         }
         return AvatarCell()
     }
-    
+    //Авторасчет ширины ячейки
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         
         var numberOfColumns: CGFloat = 3
