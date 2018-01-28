@@ -27,6 +27,10 @@ class ChatVC: UIViewController {
                 NotificationCenter.default.post(name: NOTIF_USER_DID_CHANGED, object: nil)
             })
         }
+        
+        MessageService.instance.findAllChannel { (success) in
+            
+        }
     }
 
 
