@@ -24,6 +24,9 @@ let color = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
 
 //Notification Constants
 let NOTIF_USER_DID_CHANGED = Notification.Name("notifUserDataChanged")
+let NOTIF_CHANNELS_LOADED = Notification.Name("channelsLoaded")
+let NOTIF_CHANNELS_SELECTED = Notification.Name("channelsSelected")
+
 
 //Segues
 let TO_LOGIN = "toLogin"
