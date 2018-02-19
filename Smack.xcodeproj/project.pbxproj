@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0F89155957F824233ACC5E02 /* Pods_Smack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 687929D192F6D1BE4D371A86 /* Pods_Smack.framework */; };
 		FF15A70D203AFD450008E9AB /* KeyboardBoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF15A70C203AFD450008E9AB /* KeyboardBoundView.swift */; };
+		FF15A70F203B04CE0008E9AB /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF15A70E203B04CE0008E9AB /* MessageCell.swift */; };
 		FF22DD9E201D5CE30027D726 /* MessageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF22DD9D201D5CE30027D726 /* MessageService.swift */; };
 		FF22DDA0201D5D390027D726 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF22DD9F201D5D390027D726 /* Channel.swift */; };
 		FF22DDA2202070FB0027D726 /* ChannelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF22DDA1202070FB0027D726 /* ChannelCell.swift */; };
@@ -42,6 +43,7 @@
 		687929D192F6D1BE4D371A86 /* Pods_Smack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90E83412E0FD906731452A6F /* Pods-Smack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack.release.xcconfig"; path = "Pods/Target Support Files/Pods-Smack/Pods-Smack.release.xcconfig"; sourceTree = "<group>"; };
 		FF15A70C203AFD450008E9AB /* KeyboardBoundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardBoundView.swift; sourceTree = "<group>"; };
+		FF15A70E203B04CE0008E9AB /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		FF22DD9D201D5CE30027D726 /* MessageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageService.swift; sourceTree = "<group>"; };
 		FF22DD9F201D5D390027D726 /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
 		FF22DDA1202070FB0027D726 /* ChannelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelCell.swift; sourceTree = "<group>"; };
@@ -174,6 +176,7 @@
 				FFE5EC041FD6977700C86643 /* AvatarCell.swift */,
 				FFE5EC0B1FD6ED5900C86643 /* CircleImage.swift */,
 				FF22DDA1202070FB0027D726 /* ChannelCell.swift */,
+				FF15A70E203B04CE0008E9AB /* MessageCell.swift */,
 			);
 			name = View;
 			path = "New Group1";
@@ -361,6 +364,7 @@
 				FF22DDA2202070FB0027D726 /* ChannelCell.swift in Sources */,
 				FF3F0F041FCE1EB1009C932D /* ChannelVC.swift in Sources */,
 				FFE5EC031FD691BB00C86643 /* AvatarPickerVC.swift in Sources */,
+				FF15A70F203B04CE0008E9AB /* MessageCell.swift in Sources */,
 				FF3F0F121FD1A6B7009C932D /* RoundedButton.swift in Sources */,
 				FF22DDAA2020D9810027D726 /* Message.swift in Sources */,
 				FF22DDA0201D5D390027D726 /* Channel.swift in Sources */,

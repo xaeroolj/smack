@@ -51,12 +51,12 @@ class MessageService {
                 if let json = JSON(data).array {
                     for item in json {
                         let messageBody = item["messageBody"].stringValue
-                        let channelId = item["messageBody"].stringValue
-                        let id = item["messageBody"].stringValue
-                        let userName = item["messageBody"].stringValue
-                        let userAvatar = item["messageBody"].stringValue
-                        let userAvatarColor = item["messageBody"].stringValue
-                        let timeStamp = item["messageBody"].stringValue
+                        let channelId = item["channelId"].stringValue
+                        let id = item["_id"].stringValue
+                        let userName = item["userName"].stringValue
+                        let userAvatar = item["userAvatar"].stringValue
+                        let userAvatarColor = item["userAvatarColor"].stringValue
+                        let timeStamp = item["timeStamp"].stringValue
                         
                         let message = Message(message: messageBody, userName: userName, channelId: channelId, userAvatar: userAvatar, userAvatarColor: userAvatarColor, id: id, timeStamp: timeStamp)
                         self.messages.append(message)
