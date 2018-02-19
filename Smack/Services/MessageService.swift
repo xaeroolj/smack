@@ -14,6 +14,7 @@ class MessageService {
     static let instance = MessageService()
     
     var channels = [Channel]()
+    var messages = [Message]()
     var selectedChannel: Channel?
     
     
@@ -42,6 +43,37 @@ class MessageService {
         }
     }
     
+    func findAllMessagesForChannel(channelId: String, compleation: @escaping CompletionHandler) {
+        Alamofire.request("\(URL_GET_MESSAGES)\(channelId)", method: .get, parameters: nil, encoding: JSONEncoding.default, headers: BEARER_HEADER).responseJSON { (response) in
+            if response.result.error == nil {
+                self.clearMessages()
+                guard let data = response.data else {return}
+                if let json = JSON(data).array {
+                    for item in json {
+                        let messageBody = item["messageBody"].stringValue
+                        let channelId = item["messageBody"].stringValue
+                        let id = item["messageBody"].stringValue
+                        let userName = item["messageBody"].stringValue
+                        let userAvatar = item["messageBody"].stringValue
+                        let userAvatarColor = item["messageBody"].stringValue
+                        let timeStamp = item["messageBody"].stringValue
+                        
+                        let message = Message(message: messageBody, userName: userName, channelId: channelId, userAvatar: userAvatar, userAvatarColor: userAvatarColor, id: id, timeStamp: timeStamp)
+                        self.messages.append(message)
+                    }
+                    print(self.messages)
+                    compleation(true)
+                }
+            } else {
+                debugPrint(response.result.error as Any)
+                compleation(false)
+            }
+        }
+    }
+    
+    func clearMessages() {
+        messages.removeAll()
+    }
     func clearChannels() {
         channels.removeAll()
     }

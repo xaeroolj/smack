@@ -14,6 +14,7 @@
 		FF22DDA52020875A0027D726 /* AddChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF22DDA32020875A0027D726 /* AddChannelVC.swift */; };
 		FF22DDA62020875A0027D726 /* AddChannelVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF22DDA42020875A0027D726 /* AddChannelVC.xib */; };
 		FF22DDA82020A8E30027D726 /* SocketService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF22DDA72020A8E30027D726 /* SocketService.swift */; };
+		FF22DDAA2020D9810027D726 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF22DDA92020D9810027D726 /* Message.swift */; };
 		FF2455BE1FCE0FF0005BBF45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2455BD1FCE0FF0005BBF45 /* AppDelegate.swift */; };
 		FF2455C31FCE0FF0005BBF45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF2455C11FCE0FF0005BBF45 /* Main.storyboard */; };
 		FF2455C51FCE0FF0005BBF45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF2455C41FCE0FF0005BBF45 /* Assets.xcassets */; };
@@ -45,6 +46,7 @@
 		FF22DDA32020875A0027D726 /* AddChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChannelVC.swift; sourceTree = "<group>"; };
 		FF22DDA42020875A0027D726 /* AddChannelVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddChannelVC.xib; sourceTree = "<group>"; };
 		FF22DDA72020A8E30027D726 /* SocketService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketService.swift; sourceTree = "<group>"; };
+		FF22DDA92020D9810027D726 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		FF2455BA1FCE0FF0005BBF45 /* Smack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF2455BD1FCE0FF0005BBF45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF2455C21FCE0FF0005BBF45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -178,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				FF22DD9F201D5D390027D726 /* Channel.swift */,
+				FF22DDA92020D9810027D726 /* Message.swift */,
 			);
 			name = Model;
 			path = "New Group2";
@@ -355,6 +358,7 @@
 				FF3F0F041FCE1EB1009C932D /* ChannelVC.swift in Sources */,
 				FFE5EC031FD691BB00C86643 /* AvatarPickerVC.swift in Sources */,
 				FF3F0F121FD1A6B7009C932D /* RoundedButton.swift in Sources */,
+				FF22DDAA2020D9810027D726 /* Message.swift in Sources */,
 				FF22DDA0201D5D390027D726 /* Channel.swift in Sources */,
 				FFE5EC0C1FD6ED5900C86643 /* CircleImage.swift in Sources */,
 				FF22DD9E201D5CE30027D726 /* MessageService.swift in Sources */,
